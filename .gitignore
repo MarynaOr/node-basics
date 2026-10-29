@@ -1,0 +1,25 @@
+//.gitignore
+
+# Залежності
+node_modules/
+
+# Змінні середовища (паролі, ключі)
+.env
+.env.local
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+npm-debug.log*
+
+# Збірки (якщо з'являться в майбутньому)
+dist/
+build/
+
+
+
+
+
