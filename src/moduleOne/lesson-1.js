@@ -5,6 +5,7 @@ import fs from 'node:fs/promises';
 export const lessonFirst = async () => {
   const fileFs = async () => {
     const somePath = path.join(process.cwd());
+    console.log(somePath);
 
     try {
       const someText = 'Hello!';
