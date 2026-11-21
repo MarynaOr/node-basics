@@ -7,3 +7,5 @@ export const createFakeContact = () => ({
   email: faker.internet.email(), //для формування електронних адрес
   job: faker.person.jobTitle(), //для генерації назв професій
 });
+
+createFakeContact();
