@@ -1,4 +1,7 @@
-const generateContacts = async number => {};
+const generateContacts = async number => {
+  const some = 'some';
+  console.log(some);
+};
 
 generateContacts();
 
