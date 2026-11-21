@@ -10,7 +10,7 @@ export const writeContacts = async updatedContacts => {
     console.error('Error:', err);
   }
 };
-
+writeContacts();
 //У файлі src/utils/writeContacts.js опишіть утилітну функцію writeContacts.
 //  Вона має записувати дані у файл src/db/db.json.
 // Функція повинна коректно приймати дані як параметр та
